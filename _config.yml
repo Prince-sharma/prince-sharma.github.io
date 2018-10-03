@@ -32,12 +32,13 @@ navbar-links:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
-    - CV: "/resources/CV.pdf"
+    - CV: "CV.pdf"
   Author's home: "http://deanattali.com"
+  Blogs: "https://prince-sharma.github.io/prince-sharma/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/favicon.png"
+# avatar: "/img/favicon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -47,7 +48,7 @@ title-img: "/img/favicon.png"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#F5F5F5"
+navbar-col: "#FFFFFF"
 navbar-text-col: "#404040"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
@@ -60,9 +61,9 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-# navbar-img: "/img/bgimage.png"
-# footer-img: "/img/bgimage.png"
-# page-img: "/img/bgimage.png"
+navbar-img: "/img/abstract-attractive.jpg"
+footer-img: "/img/abstract-attractive.jpg"
+page-img: "/img/abstract-attractive.jpg"
 
 # --- Footer options --- #
 
