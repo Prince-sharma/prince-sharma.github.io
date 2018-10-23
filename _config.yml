@@ -29,11 +29,11 @@ baseurl: ""
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
+#    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+#    - Learn markdown: "http://www.markdowntutorial.com/"
+#    - GitHub Pages: "https://pages.github.com/"
     - CV: "CV.pdf"
-  Author's home: "http://deanattali.com"
+#  Author's home: "http://deanattali.com"
   Blogs: "blog"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -48,13 +48,13 @@ avatar: "/img/face.png"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EB173D"
+navbar-col: "#F0FFFF"
 navbar-text-col: "#382BC2"
-navbar-children-col: "#EB173D"
-page-col: "#F9F9CC"
+navbar-children-col: "#F0FFFF"
+page-col: "#F0FFFF"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-footer-col: "#EEF600"
+footer-col: "#F0FFFF"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 
