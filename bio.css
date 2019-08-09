@@ -1,0 +1,125 @@
+/* Stylesheet for bio.html */
+
+body {
+	font-family: "Open Sans", sans-serif;
+	color: white;
+	box-sizing: border-box;
+}
+
+#left_container, #right_container {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0%;
+    overflow: hidden;
+}
+
+#right_container {
+    left: 50%;
+}
+
+#left_container {
+    left: 0px;
+}
+
+#left_overlay, #right_overlay {
+	position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#right_overlay {
+    background-image: url("sanasar-adventure-1.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+#left_overlay {
+    background-color: #A84A5C;
+    opacity: 1;
+    z-index: -1;
+}
+
+h1,p {
+	position:relative;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 75px;
+}
+
+#bio_p {
+	width: 75%;
+	margin:auto;
+	font-size: 12px;
+	line-height: 35px;
+}
+
+#links {
+	position: relative;
+	text-align: center;
+	top: 0%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	position: relative;
+	width: 125px;
+	height: 60px;
+	line-height: 60px;
+	display: inline-block;
+	border: white solid 4px;
+	transition: .5s;
+}
+
+#resume_link, #index_link {
+	position: relative;
+	font-weight: 700;
+	font-size: 20px;
+	width: 125px;
+	height: 60px;
+	display: inline-block;
+	margin: 50px 30px;
+}
+
+a:hover{
+	color: gainsboro;
+	border-color: gainsboro;
+	transition: .5s;
+}
+
+
+@media only screen and (max-width: 750px) {
+	#right_container {
+		left: 0%;
+		width: 100%;
+	}
+	
+	#left_container {	
+		width: 100%;
+	}
+	
+	#left_overlay {
+		z-index: 2;
+		opacity: .50;
+	}
+	
+	h1, p, #index_link, #resume_link{
+		z-index: 3;
+	}
+	
+	h1 {
+		font-size: 20px;
+		margin-top: 50px;
+	}
+	
+	#bio_p {
+		font-size: 10px;
+		line-height: 20px;
+	}
+} 
+

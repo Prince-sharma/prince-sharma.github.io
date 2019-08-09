@@ -1,0 +1,273 @@
+/* General Formatting */
+body {
+	position: absolute;
+	width: 100%;
+	font-family: "Open Sans", sans-serif;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	background-color: #d8b384;
+}
+
+#head_section, .pic {
+	text-align: center;
+	height: 350px;
+}
+
+ul {
+	margin: 0px auto;
+	width: 80%;
+}
+
+.links {
+	font-family:"Open Sans", sans-serif;
+	text-decoration: none;
+	color: white;
+	position: relative;
+	width: 125px;
+	height: 60px;
+	line-height: 60px;
+	display: inline-block;
+	border: white solid 4px;
+	text-align: center;
+	transition: .5s;
+}
+
+#bio_link, #index_link {
+	font-weight: 700;
+	font-size: 20px;
+	width: 125px;
+	height: 60px;
+	display: inline-block;
+	margin: 75px 50px;
+	margin-left: 50px;
+}
+
+.links:hover{
+	color: gainsboro;
+	border-color: gainsboro;
+	transition: .5s;
+}
+
+.pic {
+	background-attachment:fixed;
+	background-position: center;
+	background-size: cover
+}
+
+#head_section, .info {
+	z-index: 2;
+	background-color: #d8b384;
+	font-size: 30px;
+}
+
+p {
+	padding: 10px;
+	margin-left: 100px;
+}
+
+.bold {
+	font-weight: 700;
+	padding-top: 30px;
+	margin-left: 50px;
+}
+
+.italicize {
+	margin-top: 50px;
+	margin-left: -10px;
+	font-style: italic;
+}
+
+/* The beginning header */
+#head_section {
+	position: absolute;
+	width: 100%;
+	padding-top: 200px;
+	top: -200px;
+	height: 600px;
+}
+
+#header {
+	font-size: 75px;
+}
+
+i {
+	margin: 0px 50px;
+	color: white;
+	transition: .5s;
+	font-size: 75px;
+}
+
+.fa-github-square:hover {
+	color:black;
+}
+
+.fa-linkedin:hover {
+	color: #0077B5;
+}
+
+.big-text {
+	font-size: 100px;
+	line-height: 350px;
+}
+
+/* Education */
+#education_pic {
+	position: relative;
+	margin-top: 600px;
+	background-image: url("IIT-Bombay.jpeg");
+}
+
+#education_info {
+	height: 400px;
+}
+
+#eduction_subpart, #experience_subpart, #experience_subpart2, #experience_subpart3, 
+#experience_subpart4, #experience_subpart5 {
+	display: inline-flex;
+	margin-bottom: -20px;
+}
+
+#education_location {
+	padding-top: 30px;
+	margin-left: 20px;
+}
+
+#education_gpa {
+	margin-top: -30px;
+	
+}
+
+
+
+/* Experience */
+#experience_pic {
+	margin-top:-100px;
+	background-image: url("times-square.jpg");
+}
+
+#linkedinpost {
+    margin-top:5%;	
+}
+
+/* Skills */
+
+#skills_pic {
+	background-image: url("skills.jpg");
+}
+
+#skills_list {
+	margin-top: 50px;
+}
+
+.skills_items {
+	margin-top: 50px;
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.skill_description {
+	margin-top: 50px;
+	font-weight: 300;
+	font-size: 30px;
+}
+
+/* Activities */
+#activities_pic {
+	background-image: url("not-that-cool-1.JPG");
+}
+
+.activity_items {
+	margin-top: 50px;
+	font-weight: 700;
+}
+
+.activity_description {
+	font-weight: 300;
+}
+
+
+@media only screen and (max-width: 750px) {
+	#header {
+		font-size: 50px;
+	}
+	
+	#bio_link, #index_link {
+		margin: 75px 25px;
+	}
+	
+	#head_section {
+		height: 500px;
+	}
+	
+	#education_pic {
+		margin-top: 500px;
+	}
+	
+	.big-text {
+		font-size: 50px;
+	}
+	
+	.info {
+		font-size: 20px;
+	}
+	
+	.bold {
+		font-size: 25px;
+	}
+	
+	.italicize {
+		margin-top: 50px;
+	}
+	
+	.skills_items {
+		margin-top: 20px;
+		font-size: 25px;
+	}
+	
+	.skill_description {
+		margin-top: 20px;
+		font-weight: 300;
+		font-size: 20px;
+	}
+	
+	#education_location {
+		padding-top: 40px;
+		margin-right: 30px;
+		margin-left: 0px;
+	}
+	
+	#education_gpa{
+		margin-top: -35px;
+	}
+	
+	#education_major_year {
+		margin-top: 0px;
+	}	
+	
+	#education_info{
+		height: 450px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	#linkedinpost {
+		display: block;
+		margin: 0px auto;
+		width: 80%;
+		float: none;
+	}
+
+	#samsung_sds_bullets {
+		margin: 0px auto;
+		margin-top: 5%;
+		width: 80%;
+		float: none;
+	}
+	
+	#ital_1 {
+		margin-right: 2%;
+	}
+	
+}
+

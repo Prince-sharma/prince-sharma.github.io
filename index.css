@@ -1,0 +1,113 @@
+/* Stylesheet for index.html */
+
+body {
+	font-family: "Open Sans", sans-serif;
+	color: white;
+	box-sizing: border-box;
+}
+
+#left_container, #right_container {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0%;
+    overflow: hidden;
+}
+
+#right_container {
+    left: 50%;
+}
+
+#left_container {
+    left: 0px;
+}
+
+#left_overlay, #right_overlay {
+	position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#left_overlay {
+    background-image: url("smile-1.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+#right_overlay {
+    background-color: #8FBCDB;
+    opacity: 1;
+    z-index: -1;
+}
+
+h1,p {
+	position:relative;
+	text-align: center;
+}
+
+h1 {
+	width: 75%;
+	margin: auto;
+	top: 25%;
+	border-bottom: white solid 1px;
+	line-height: 100px;
+}
+
+p {
+	top: 27%;
+	width: 80%;
+	margin: 20px auto;
+}
+
+#links {
+	position: relative;
+	text-align: center;
+	top: 30%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	position: relative;
+	width: 125px;
+	height: 60px;
+	line-height: 60px;
+	display: inline-block;
+	border: white solid 4px;
+	transition: .5s;
+}
+
+#resume_link, #bio_link {
+	font-weight: 700;
+	font-size: 20px;
+	width: 125px;
+	height: 60px;
+	display: inline-block;
+	margin: 0px 30px;
+}
+
+a:hover{
+	color: gainsboro;
+	border-color: gainsboro;
+	transition: .5s;
+}
+
+@media only screen and (max-width: 750px) {
+	#right_container {
+		left: 0%;
+		width: 100%;
+	}
+	
+	#left_container {	
+		width: 100%;
+	}
+	
+	#right_overlay {
+		z-index: 2;
+		opacity: .70;
+	}
+	
+	h1, p, #links {
+		z-index: 3;
+	}
+} 
